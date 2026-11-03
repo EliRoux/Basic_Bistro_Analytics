@@ -1,0 +1,65 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Private source data (never publish)
+INPUT/
+System/data/raw/
+System/data/processed/
+data/raw/
+data/processed/
+data/private/
+data/confidential/
+*.xlsx
+*.xls
+*.csv
+!System/data/synthetic/
+!System/data/synthetic/*.csv
+
+# Local Git history, environments, caches and build output
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.git/
+build/
+dist/
+Logs/
+*.log
+basic_bistro_audit.txt
+
+# Power BI working files and local reports (publish reviewed exports separately)
+Dashboard/*.pbix
+*.pbit
+~$*
+.DS_Store
+Thumbs.db
+
+# Local backups and temporary files
+*_backup.py
+*.bak
+*.backup
+*.tmp
+*.old
+# Previous private Git repository metadata
+.git_old_backup/
+
+# Original private-data ETL scripts (not part of public pipeline)
+System/python/app.py
+System/python/clean_*.py
+System/python/consolidate_*.py
+System/python/database.py
+System/python/load_database.py
+System/python/run_pipeline.py
+System/python/validate_inputs.py
+
+# Legacy setup and local executable launcher
+System/sql/00_create_database.sql
+UPDATE_DASHBOARD.bat

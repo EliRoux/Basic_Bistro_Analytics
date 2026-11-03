@@ -1,0 +1,153 @@
+exception_type,name,qty,table_number,invoice_number,exception_datetime,date,value,invoice_value_before,invoice_value_after,employee,authorized_by
+Line Discount,Crispy Fish Plate - Variant 4,1,1,SYN-20261001-0022,2026-10-01 10:55:40,2026-10-01,33.54,215.38,181.84,Staff 11,Manager 02
+Void,Grilled Steak Plate - Variant 4,2,26,SYN-20261001-0043,2026-10-01 10:55:04,2026-10-01,4.75,82.64,77.89,Staff 04,Manager 01
+Error Correct,Vanilla Berry Cheesecake - Variant 2,1,24,SYN-20261003-0063,2026-10-03 12:28:46,2026-10-03,219.44,1158.59,939.15,Staff 05,Manager 03
+Bill Print Exception,Citrus Iced Tea - Variant 2,1,17,SYN-20261006-0009,2026-10-06 10:19:35,2026-10-06,72.08,1111.44,1039.36,Staff 09,Manager 01
+Error Correct,Flat White Coffee - Variant 4,1,3,SYN-20261006-0061,2026-10-06 10:52:02,2026-10-06,46.78,428.18,381.4,Staff 02,Manager 02
+Bill Print Exception,Flat White Coffee,1,9,SYN-20261007-0058,2026-10-07 16:17:23,2026-10-07,13.17,114.04,100.87,Staff 01,Manager 01
+Bill Print Exception,Crispy Fish Plate,1,14,SYN-20261007-0044,2026-10-07 12:44:02,2026-10-07,7.97,130.68,122.71,Staff 10,Manager 02
+Bill Print Exception,Harbour Chicken Bowl,1,6,SYN-20261008-0002,2026-10-08 11:21:55,2026-10-08,95.28,693.22,597.94,Staff 08,Manager 01
+Price Overrides,Crispy Fish Plate - Variant 2,1,6,SYN-20261008-0087,2026-10-08 10:52:39,2026-10-08,69.42,444.43,375.01,Staff 02,Manager 01
+Bill Print Exception,Seasonal Fruit Cup - Variant 5,1,23,SYN-20261010-0053,2026-10-10 09:25:11,2026-10-10,48.25,638.91,590.66,Staff 01,Manager 02
+Price Overrides,Roasted Pepper Quiche,1,11,SYN-20261010-0020,2026-10-10 13:37:14,2026-10-10,97.72,522.64,424.92,Staff 01,Manager 03
+Void,Harbour Chicken Bowl,1,6,SYN-20261011-0007,2026-10-11 08:04:34,2026-10-11,18.2,83.93,65.73,Staff 08,Manager 03
+Price Overrides,Vanilla Berry Cheesecake - Variant 3,1,2,SYN-20261012-0037,2026-10-12 12:30:37,2026-10-12,77.05,316.23,239.18,Staff 01,Manager 02
+Line Discount,Mediterranean Grain Bowl,1,5,SYN-20261016-0003,2026-10-16 16:05:25,2026-10-16,33.91,185.08,151.17,Staff 03,Manager 02
+Invoice Recall,Roasted Veg Wrap - Variant 3,1,2,SYN-20261016-0052,2026-10-16 12:23:21,2026-10-16,117.16,604.35,487.19,Staff 06,Manager 02
+Paytype Voids,Roasted Veg Wrap,1,6,SYN-20261016-0001,2026-10-16 15:28:19,2026-10-16,21.16,432.87,411.71,Staff 12,Manager 01
+Paytype Voids,Mediterranean Grain Bowl,1,23,SYN-20261016-0045,2026-10-16 09:59:15,2026-10-16,40.92,331.89,290.97,Staff 10,Manager 01
+Price Overrides,Flat White Coffee - Variant 4,2,17,SYN-20261017-0076,2026-10-17 12:19:10,2026-10-17,21.32,180.4,159.08,Staff 01,Manager 01
+Error Correct,House Lemonade - Variant 2,1,13,SYN-20261017-0052,2026-10-17 14:14:51,2026-10-17,186.86,755.85,568.99,Staff 03,Manager 01
+Error Correct,Crispy Fish Plate - Variant 6,1,4,SYN-20261019-0041,2026-10-19 15:48:26,2026-10-19,9.05,194.85,185.8,Staff 02,Manager 01
+Error Correct,Smoky Beef Burger,1,16,SYN-20261019-0012,2026-10-19 08:15:47,2026-10-19,14.47,139.7,125.23,Staff 09,Manager 02
+Bill Print Exception,Harbour Chicken Bowl - Variant 3,1,18,SYN-20261020-0033,2026-10-20 15:25:48,2026-10-20,116.66,503.23,386.57,Staff 11,Manager 02
+Error Correct,Roasted Veg Wrap,1,30,SYN-20261020-0021,2026-10-20 18:54:24,2026-10-20,32.4,205.3,172.9,Staff 07,Manager 01
+Price Overrides,Lemon Herb Chicken,1,20,SYN-20261021-0046,2026-10-21 15:09:41,2026-10-21,74.0,347.85,273.85,Staff 04,Manager 03
+Price Overrides,Spiced Pumpkin Soup - Variant 2,1,26,SYN-20261021-0002,2026-10-21 15:11:00,2026-10-21,42.32,524.32,482.0,Staff 03,Manager 02
+Price Overrides,Seasonal Fruit Cup - Variant 2,1,4,SYN-20261021-0045,2026-10-21 14:04:00,2026-10-21,195.86,1109.92,914.06,Staff 11,Manager 03
+Price Overrides,Roasted Pepper Quiche - Variant 5,1,24,SYN-20261021-0061,2026-10-21 11:22:44,2026-10-21,143.4,684.95,541.55,Staff 07,Manager 01
+Line Discount,Vanilla Berry Cheesecake - Variant 5,2,30,SYN-20261022-0057,2026-10-22 14:54:37,2026-10-22,47.58,324.19,276.61,Staff 06,Manager 02
+Price Overrides,Harbour Chicken Bowl - Variant 2,1,21,SYN-20261023-0047,2026-10-23 14:18:13,2026-10-23,33.18,205.71,172.53,Staff 05,Manager 01
+Bill Print Exception,Chocolate Brownie - Variant 3,1,3,SYN-20261023-0060,2026-10-23 15:17:10,2026-10-23,89.37,1413.35,1323.98,Staff 10,Manager 01
+Void,Golden Halloumi Salad - Variant 4,1,24,SYN-20261023-0056,2026-10-23 11:23:20,2026-10-23,105.31,442.78,337.47,Staff 07,Manager 03
+Error Correct,House Lemonade - Variant 5,2,4,SYN-20261023-0035,2026-10-23 18:01:04,2026-10-23,21.8,92.1,70.3,Staff 08,Manager 03
+Error Correct,Tomato Basil Toast - Variant 2,2,6,SYN-20261024-0049,2026-10-24 14:14:16,2026-10-24,43.77,386.81,343.04,Staff 05,Manager 03
+Transfer In,Creamy Mushroom Penne - Variant 5,2,17,SYN-20261024-0062,2026-10-24 18:26:32,2026-10-24,29.74,363.34,333.6,Staff 08,Manager 03
+Bill Print Exception,Harbour Chicken Bowl - Variant 4,1,3,SYN-20261025-0024,2026-10-25 17:29:31,2026-10-25,91.34,466.79,375.45,Staff 05,Manager 01
+Bill Print Exception,Crispy Fish Plate - Variant 2,1,18,SYN-20261025-0039,2026-10-25 17:07:51,2026-10-25,40.38,380.36,339.98,Staff 09,Manager 01
+Bill Print Exception,Grilled Steak Plate,1,26,SYN-20261026-0034,2026-10-26 16:17:49,2026-10-26,15.84,88.92,73.08,Staff 12,Manager 01
+Invoice Recall,Spiced Pumpkin Soup - Variant 4,1,25,SYN-20261027-0038,2026-10-27 12:49:10,2026-10-27,156.87,964.92,808.05,Staff 01,Manager 01
+Bill Print Exception,Roasted Veg Wrap,1,14,SYN-20261027-0034,2026-10-27 14:39:10,2026-10-27,43.96,293.48,249.52,Staff 04,Manager 01
+Line Discount,Grilled Steak Plate - Variant 6,2,8,SYN-20261028-0064,2026-10-28 19:32:09,2026-10-28,138.13,1020.09,881.96,Staff 10,Manager 01
+Bill Print Exception,Flat White Coffee - Variant 6,1,26,SYN-20261028-0042,2026-10-28 15:38:33,2026-10-28,107.46,468.62,361.16,Staff 02,Manager 03
+Void,Garden Pesto Pasta - Variant 6,2,5,SYN-20261029-0071,2026-10-29 14:08:23,2026-10-29,6.29,207.66,201.37,Staff 09,Manager 03
+Bill Print Exception,Roasted Veg Wrap - Variant 3,2,20,SYN-20261029-0043,2026-10-29 10:29:04,2026-10-29,26.57,145.34,118.77,Staff 02,Manager 03
+Bill Print Exception,Vanilla Berry Cheesecake - Variant 3,2,18,SYN-20261030-0025,2026-10-30 14:07:15,2026-10-30,107.65,487.53,379.88,Staff 01,Manager 02
+Invoice Recall,Buttermilk Pancake Stack,1,28,SYN-20261101-0016,2026-11-01 14:08:05,2026-11-01,49.65,223.87,174.22,Staff 10,Manager 02
+Bill Print Exception,Dark Cocoa Slice - Variant 4,2,2,SYN-20261101-0003,2026-11-01 13:42:21,2026-11-01,45.12,380.28,335.16,Staff 09,Manager 01
+Bill Print Exception,Tomato Basil Toast - Variant 2,1,1,SYN-20261102-0047,2026-11-02 15:39:34,2026-11-02,11.03,226.6,215.57,Staff 10,Manager 03
+Transfer Out,Crispy Fish Plate - Variant 2,1,6,SYN-20261102-0012,2026-11-02 11:41:03,2026-11-02,4.37,20.66,16.29,Staff 09,Manager 01
+Bill Print Exception,Mediterranean Grain Bowl - Variant 6,2,21,SYN-20261103-0014,2026-11-03 16:50:12,2026-11-03,82.33,461.58,379.25,Staff 01,Manager 03
+Bill Print Exception,Flat White Coffee - Variant 2,2,2,SYN-20261103-0043,2026-11-03 17:11:19,2026-11-03,142.17,879.7,737.53,Staff 08,Manager 01
+Bill Print Exception,Buttermilk Pancake Stack - Variant 2,1,21,SYN-20261103-0042,2026-11-03 16:31:06,2026-11-03,48.77,342.04,293.27,Staff 11,Manager 03
+Error Correct,Crispy Fish Plate,2,8,SYN-20261105-0031,2026-11-05 10:54:43,2026-11-05,23.93,116.1,92.17,Staff 11,Manager 03
+Error Correct,Crispy Fish Plate - Variant 6,1,30,SYN-20261105-0029,2026-11-05 14:09:53,2026-11-05,24.0,107.11,83.11,Staff 11,Manager 02
+Error Correct,Roasted Pepper Quiche,1,5,SYN-20261107-0042,2026-11-07 16:28:38,2026-11-07,284.05,1239.99,955.94,Staff 09,Manager 03
+Error Correct,Creamy Mushroom Penne,2,3,SYN-20261107-0006,2026-11-07 16:19:00,2026-11-07,138.48,1664.07,1525.59,Staff 12,Manager 01
+Error Correct,Tomato Basil Toast - Variant 5,1,5,SYN-20261107-0003,2026-11-07 16:56:43,2026-11-07,61.45,419.69,358.24,Staff 12,Manager 02
+Line Discount,Buttermilk Pancake Stack - Variant 4,1,9,SYN-20261108-0057,2026-11-08 18:30:55,2026-11-08,9.38,84.61,75.23,Staff 06,Manager 03
+Void,Golden Halloumi Salad - Variant 5,2,12,SYN-20261108-0020,2026-11-08 17:53:53,2026-11-08,11.13,342.9,331.77,Staff 08,Manager 01
+Error Correct,Buttermilk Pancake Stack - Variant 4,1,17,SYN-20261109-0038,2026-11-09 14:27:09,2026-11-09,44.14,1230.38,1186.24,Staff 08,Manager 01
+Price Overrides,Chocolate Brownie - Variant 4,2,27,SYN-20261109-0060,2026-11-09 14:56:48,2026-11-09,79.18,607.82,528.64,Staff 09,Manager 01
+Error Correct,Spiced Pumpkin Soup - Variant 2,2,20,SYN-20261110-0007,2026-11-10 14:23:59,2026-11-10,115.22,466.24,351.02,Staff 08,Manager 01
+Price Overrides,Chocolate Brownie,2,25,SYN-20261110-0041,2026-11-10 14:04:20,2026-11-10,130.46,658.51,528.05,Staff 09,Manager 03
+Void,Crispy Chicken Sandwich,1,7,SYN-20261110-0002,2026-11-10 10:15:08,2026-11-10,105.7,530.6,424.9,Staff 10,Manager 01
+Bill Print Exception,Grilled Steak Plate - Variant 4,1,10,SYN-20261111-0041,2026-11-11 16:42:19,2026-11-11,68.9,501.88,432.98,Staff 12,Manager 02
+Bill Print Exception,House Lemonade - Variant 5,1,15,SYN-20261112-0052,2026-11-12 19:09:15,2026-11-12,22.93,142.25,119.32,Staff 10,Manager 01
+Error Correct,Smoky Beef Burger - Variant 6,2,12,SYN-20261112-0004,2026-11-12 14:54:27,2026-11-12,61.07,296.51,235.44,Staff 12,Manager 01
+Bill Print Exception,House Lemonade - Variant 3,1,11,SYN-20261112-0013,2026-11-12 12:26:24,2026-11-12,59.13,300.49,241.36,Staff 07,Manager 01
+Bill Print Exception,Crispy Chicken Sandwich - Variant 3,2,20,SYN-20261112-0084,2026-11-12 19:33:36,2026-11-12,5.26,137.89,132.63,Staff 08,Manager 02
+Price Overrides,Smoky Beef Burger - Variant 2,1,28,SYN-20261112-0039,2026-11-12 14:31:57,2026-11-12,45.72,305.84,260.12,Staff 05,Manager 01
+Void,Crispy Fish Plate - Variant 3,1,4,SYN-20261113-0052,2026-11-13 20:53:34,2026-11-13,32.58,226.91,194.33,Staff 02,Manager 03
+Bill Print Exception,Citrus Iced Tea - Variant 3,1,17,SYN-20261114-0037,2026-11-14 16:33:12,2026-11-14,53.9,306.67,252.77,Staff 07,Manager 01
+Price Overrides,Roasted Veg Wrap - Variant 4,1,10,SYN-20261114-0003,2026-11-14 19:40:07,2026-11-14,79.74,694.86,615.12,Staff 03,Manager 03
+Bill Print Exception,Garden Pesto Pasta - Variant 3,1,24,SYN-20261116-0018,2026-11-16 13:15:00,2026-11-16,125.22,596.39,471.17,Staff 10,Manager 03
+Void,Seasonal Fruit Cup - Variant 4,1,29,SYN-20261117-0026,2026-11-17 14:30:07,2026-11-17,6.54,243.71,237.17,Staff 10,Manager 03
+Error Correct,Crispy Fish Plate - Variant 3,2,22,SYN-20261118-0073,2026-11-18 17:39:50,2026-11-18,29.26,208.75,179.49,Staff 08,Manager 01
+Bill Print Exception,Lemon Herb Chicken - Variant 5,1,10,SYN-20261119-0046,2026-11-19 15:14:58,2026-11-19,23.41,357.36,333.95,Staff 05,Manager 03
+Bill Print Exception,Lemon Herb Chicken - Variant 5,2,2,SYN-20261119-0022,2026-11-19 20:10:08,2026-11-19,10.77,104.06,93.29,Staff 03,Manager 01
+Bill Print Exception,Golden Halloumi Salad - Variant 6,2,28,SYN-20261119-0026,2026-11-19 12:26:45,2026-11-19,25.36,325.03,299.67,Staff 03,Manager 03
+Void,Buttermilk Pancake Stack - Variant 5,1,15,SYN-20261119-0058,2026-11-19 20:12:57,2026-11-19,12.61,156.02,143.41,Staff 06,Manager 02
+Line Discount,Grilled Steak Plate - Variant 5,2,4,SYN-20261120-0041,2026-11-20 18:07:31,2026-11-20,51.36,425.27,373.91,Staff 10,Manager 03
+Price Overrides,Chocolate Brownie,2,21,SYN-20261120-0036,2026-11-20 12:58:16,2026-11-20,209.41,912.88,703.47,Staff 12,Manager 01
+Price Overrides,Classic Brunch Stack - Variant 2,1,19,SYN-20261120-0054,2026-11-20 11:56:38,2026-11-20,28.39,418.63,390.24,Staff 06,Manager 03
+Bill Print Exception,Vanilla Berry Cheesecake - Variant 4,1,10,SYN-20261122-0028,2026-11-22 13:23:25,2026-11-22,23.71,122.09,98.38,Staff 10,Manager 02
+Transfer Out,Vanilla Berry Cheesecake - Variant 2,1,4,SYN-20261123-0061,2026-11-23 17:18:04,2026-11-23,10.38,50.42,40.04,Staff 09,Manager 02
+Bill Print Exception,Buttermilk Pancake Stack - Variant 4,2,1,SYN-20261123-0041,2026-11-23 17:10:06,2026-11-23,17.18,98.69,81.51,Staff 04,Manager 03
+Non Turnover,Grilled Steak Plate - Variant 5,1,25,SYN-20261124-0061,2026-11-24 20:19:29,2026-11-24,88.3,363.42,275.12,Staff 09,Manager 02
+Error Correct,Lemon Herb Chicken - Variant 3,1,18,SYN-20261124-0006,2026-11-24 14:17:36,2026-11-24,35.44,210.83,175.39,Staff 04,Manager 02
+Price Overrides,Vanilla Berry Cheesecake - Variant 4,1,6,SYN-20261125-0032,2026-11-25 14:21:47,2026-11-25,90.98,1032.86,941.88,Staff 08,Manager 03
+Bill Print Exception,Vanilla Berry Cheesecake,2,7,SYN-20261126-0018,2026-11-26 13:17:22,2026-11-26,33.83,281.16,247.33,Staff 12,Manager 02
+Bill Print Exception,House Lemonade - Variant 6,2,27,SYN-20261126-0071,2026-11-26 15:44:43,2026-11-26,11.75,135.69,123.94,Staff 12,Manager 01
+Line Discount,Grilled Steak Plate,1,25,SYN-20261126-0092,2026-11-26 13:29:46,2026-11-26,83.51,435.85,352.34,Staff 05,Manager 03
+Bill Print Exception,Creamy Mushroom Penne - Variant 5,1,7,SYN-20261126-0039,2026-11-26 20:39:54,2026-11-26,54.67,533.04,478.37,Staff 10,Manager 03
+Price Overrides,Golden Halloumi Salad,1,16,SYN-20261126-0017,2026-11-26 15:01:25,2026-11-26,26.89,113.12,86.23,Staff 04,Manager 02
+Bill Print Exception,Seasonal Fruit Cup - Variant 5,2,23,SYN-20261127-0067,2026-11-27 12:28:39,2026-11-27,41.02,265.07,224.05,Staff 03,Manager 02
+Price Overrides,Grilled Steak Plate - Variant 5,1,1,SYN-20261127-0054,2026-11-27 10:53:08,2026-11-27,97.6,595.2,497.6,Staff 11,Manager 02
+Error Correct,Crispy Chicken Sandwich,1,3,SYN-20261127-0017,2026-11-27 10:54:09,2026-11-27,342.95,1626.68,1283.73,Staff 07,Manager 03
+Price Overrides,Seasonal Fruit Cup - Variant 5,1,10,SYN-20261128-0027,2026-11-28 14:07:42,2026-11-28,190.27,1503.58,1313.31,Staff 01,Manager 02
+Bill Print Exception,Smoky Beef Burger - Variant 2,1,30,SYN-20261128-0012,2026-11-28 17:33:02,2026-11-28,193.42,991.0,797.58,Staff 10,Manager 03
+Error Correct,Tomato Basil Toast - Variant 5,1,14,SYN-20261128-0037,2026-11-28 12:35:45,2026-11-28,63.22,286.26,223.04,Staff 12,Manager 01
+Error Correct,Crispy Fish Plate - Variant 3,1,6,SYN-20261129-0016,2026-11-29 10:39:24,2026-11-29,27.27,195.49,168.22,Staff 10,Manager 01
+Bill Print Exception,Spiced Pumpkin Soup,2,20,SYN-20261129-0048,2026-11-29 15:52:17,2026-11-29,11.46,268.92,257.46,Staff 01,Manager 03
+Transfer Out,Citrus Iced Tea,2,30,SYN-20261130-0044,2026-11-30 12:33:31,2026-11-30,5.43,28.12,22.69,Staff 03,Manager 02
+Bill Print Exception,Mediterranean Grain Bowl - Variant 5,1,5,SYN-20261201-0032,2026-12-01 10:47:10,2026-12-01,48.06,335.75,287.69,Staff 04,Manager 02
+Price Overrides,Caramel Apple Tart - Variant 3,1,13,SYN-20261201-0059,2026-12-01 17:06:04,2026-12-01,20.44,197.87,177.43,Staff 09,Manager 01
+Price Overrides,Buttermilk Pancake Stack - Variant 4,2,20,SYN-20261202-0063,2026-12-02 15:54:46,2026-12-02,133.27,545.42,412.15,Staff 11,Manager 02
+Void,Grilled Steak Plate - Variant 3,2,19,SYN-20261203-0020,2026-12-03 18:42:23,2026-12-03,2.79,100.96,98.17,Staff 03,Manager 03
+Void,Vanilla Berry Cheesecake - Variant 4,1,30,SYN-20261203-0031,2026-12-03 11:09:39,2026-12-03,37.72,313.02,275.3,Staff 02,Manager 01
+Invoice Recall,Golden Halloumi Salad - Variant 3,1,6,SYN-20261204-0031,2026-12-04 12:15:16,2026-12-04,143.17,645.43,502.26,Staff 09,Manager 01
+Transfer Out,Golden Halloumi Salad,2,6,SYN-20261205-0025,2026-12-05 16:37:54,2026-12-05,10.45,53.44,42.99,Staff 04,Manager 02
+Error Correct,Seasonal Fruit Cup - Variant 3,2,4,SYN-20261206-0002,2026-12-06 10:49:40,2026-12-06,30.74,1035.44,1004.7,Staff 02,Manager 02
+Price Overrides,Dark Cocoa Slice - Variant 5,1,24,SYN-20261206-0054,2026-12-06 08:57:31,2026-12-06,41.58,288.7,247.12,Staff 11,Manager 03
+Line Discount,Chocolate Brownie - Variant 5,1,28,SYN-20261208-0031,2026-12-08 16:23:02,2026-12-08,77.22,466.1,388.88,Staff 04,Manager 02
+Invoice Recall,Vanilla Berry Cheesecake - Variant 3,1,19,SYN-20261208-0033,2026-12-08 14:37:34,2026-12-08,7.72,297.19,289.47,Staff 05,Manager 03
+Bill Print Exception,Chocolate Brownie - Variant 4,1,9,SYN-20261208-0043,2026-12-08 18:23:39,2026-12-08,2.77,72.12,69.35,Staff 03,Manager 03
+Bill Print Exception,Lemon Herb Chicken - Variant 3,1,26,SYN-20261209-0009,2026-12-09 15:03:25,2026-12-09,55.6,346.69,291.09,Staff 12,Manager 01
+Price Overrides,Dark Cocoa Slice,1,2,SYN-20261209-0083,2026-12-09 09:55:43,2026-12-09,17.73,263.28,245.55,Staff 02,Manager 02
+Error Correct,Garden Pesto Pasta - Variant 3,1,17,SYN-20261211-0053,2026-12-11 13:34:07,2026-12-11,637.2,2819.94,2182.74,Staff 07,Manager 03
+Bill Print Exception,Spiced Pumpkin Soup - Variant 4,1,11,SYN-20261211-0004,2026-12-11 16:28:38,2026-12-11,265.64,1560.8,1295.16,Staff 07,Manager 02
+Error Correct,Citrus Iced Tea - Variant 6,1,9,SYN-20261213-0058,2026-12-13 15:19:24,2026-12-13,30.31,150.14,119.83,Staff 10,Manager 01
+Bill Print Exception,Vanilla Berry Cheesecake - Variant 5,2,9,SYN-20261214-0007,2026-12-14 14:16:27,2026-12-14,20.74,153.24,132.5,Staff 02,Manager 01
+Error Correct,Spiced Pumpkin Soup,1,9,SYN-20261214-0051,2026-12-14 13:46:42,2026-12-14,140.52,772.08,631.56,Staff 07,Manager 02
+Price Overrides,Creamy Mushroom Penne - Variant 5,1,21,SYN-20261215-0049,2026-12-15 19:08:46,2026-12-15,286.05,2546.94,2260.89,Staff 01,Manager 02
+Error Correct,Roasted Pepper Quiche - Variant 4,1,2,SYN-20261215-0014,2026-12-15 13:07:04,2026-12-15,171.41,710.52,539.11,Staff 05,Manager 02
+Bill Print Exception,Smoky Beef Burger - Variant 3,1,1,SYN-20261217-0002,2026-12-17 12:43:08,2026-12-17,12.73,279.27,266.54,Staff 09,Manager 03
+Error Correct,Grilled Steak Plate,1,11,SYN-20261217-0080,2026-12-17 10:11:53,2026-12-17,44.86,200.12,155.26,Staff 10,Manager 01
+Line Discount,Flat White Coffee - Variant 4,1,25,SYN-20261217-0056,2026-12-17 11:16:29,2026-12-17,13.93,72.12,58.19,Staff 10,Manager 02
+Error Correct,Golden Halloumi Salad - Variant 5,1,17,SYN-20261217-0018,2026-12-17 11:12:05,2026-12-17,18.38,172.03,153.65,Staff 12,Manager 02
+Void,Seasonal Fruit Cup - Variant 3,2,20,SYN-20261218-0026,2026-12-18 20:00:18,2026-12-18,109.5,697.11,587.61,Staff 11,Manager 03
+Error Correct,Crispy Fish Plate - Variant 3,1,30,SYN-20261220-0058,2026-12-20 16:17:17,2026-12-20,4.18,107.57,103.39,Staff 01,Manager 03
+Bill Print Exception,Garden Pesto Pasta - Variant 4,1,26,SYN-20261220-0039,2026-12-20 13:48:09,2026-12-20,51.92,363.96,312.04,Staff 05,Manager 03
+Bill Print Exception,Dark Cocoa Slice - Variant 3,1,12,SYN-20261220-0025,2026-12-20 15:00:32,2026-12-20,63.38,262.73,199.35,Staff 10,Manager 02
+Bill Print Exception,Smoky Beef Burger - Variant 3,1,5,SYN-20261222-0037,2026-12-22 16:58:33,2026-12-22,114.08,1082.52,968.44,Staff 05,Manager 01
+Transfer In,Lemon Herb Chicken,1,10,SYN-20261223-0043,2026-12-23 15:44:14,2026-12-23,3.43,121.48,118.05,Staff 06,Manager 03
+Error Correct,Seasonal Fruit Cup - Variant 2,1,23,SYN-20261223-0053,2026-12-23 19:05:50,2026-12-23,71.59,483.71,412.12,Staff 05,Manager 03
+Bill Print Exception,Citrus Iced Tea - Variant 6,1,25,SYN-20261224-0051,2026-12-24 18:43:24,2026-12-24,11.6,79.66,68.06,Staff 01,Manager 01
+Bill Print Exception,Crispy Chicken Sandwich - Variant 5,2,30,SYN-20261224-0032,2026-12-24 17:41:26,2026-12-24,34.53,304.87,270.34,Staff 06,Manager 01
+Error Correct,Spiced Pumpkin Soup - Variant 2,1,22,SYN-20261225-0052,2026-12-25 16:12:18,2026-12-25,81.79,416.78,334.99,Staff 12,Manager 03
+Non Turnover,Buttermilk Pancake Stack - Variant 6,1,5,SYN-20261226-0010,2026-12-26 13:20:44,2026-12-26,97.44,405.46,308.02,Staff 06,Manager 01
+Error Correct,Creamy Mushroom Penne,1,28,SYN-20261226-0001,2026-12-26 13:48:22,2026-12-26,3.66,155.87,152.21,Staff 01,Manager 01
+Price Overrides,Tomato Basil Toast - Variant 5,1,14,SYN-20261227-0010,2026-12-27 09:27:51,2026-12-27,58.8,409.13,350.33,Staff 06,Manager 03
+Bill Print Exception,House Lemonade - Variant 4,1,19,SYN-20261227-0036,2026-12-27 17:05:12,2026-12-27,22.86,121.27,98.41,Staff 10,Manager 01
+Bill Print Exception,House Lemonade - Variant 4,1,18,SYN-20261228-0047,2026-12-28 12:31:21,2026-12-28,21.11,170.73,149.62,Staff 12,Manager 03
+Void,Buttermilk Pancake Stack - Variant 4,2,6,SYN-20261229-0038,2026-12-29 12:05:00,2026-12-29,46.32,312.13,265.81,Staff 04,Manager 03
+Price Overrides,Harbour Chicken Bowl,1,8,SYN-20261229-0013,2026-12-29 11:07:10,2026-12-29,166.03,892.8,726.77,Staff 08,Manager 02
+Bill Print Exception,Dark Cocoa Slice - Variant 2,1,26,SYN-20261229-0012,2026-12-29 10:16:01,2026-12-29,43.22,1307.74,1264.52,Staff 08,Manager 03
+Bill Print Exception,Mediterranean Grain Bowl - Variant 5,2,15,SYN-20261230-0077,2026-12-30 11:51:56,2026-12-30,20.09,180.97,160.88,Staff 07,Manager 02
+Line Discount,Citrus Iced Tea,1,27,SYN-20261230-0073,2026-12-30 08:57:52,2026-12-30,30.15,174.28,144.13,Staff 05,Manager 01
+Non Turnover,Classic Brunch Stack - Variant 3,1,2,SYN-20261230-0042,2026-12-30 11:43:57,2026-12-30,156.0,717.48,561.48,Staff 01,Manager 01
+Void,Crispy Fish Plate,1,3,SYN-20261230-0039,2026-12-30 15:10:35,2026-12-30,67.77,536.26,468.49,Staff 09,Manager 03
+Price Overrides,Mediterranean Grain Bowl - Variant 6,1,19,SYN-20261231-0009,2026-12-31 13:02:43,2026-12-31,31.19,165.37,134.18,Staff 08,Manager 03
+Bill Print Exception,Tomato Basil Toast,1,12,SYN-20261231-0040,2026-12-31 16:19:12,2026-12-31,6.21,70.7,64.49,Staff 09,Manager 02
+Error Correct,Roasted Veg Wrap - Variant 6,2,18,SYN-20261231-0060,2026-12-31 19:43:59,2026-12-31,14.84,140.83,125.99,Staff 06,Manager 02
