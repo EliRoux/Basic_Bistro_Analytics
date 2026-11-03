@@ -1,4 +1,4 @@
-# Basic Bistro Analytics â€” public synthetic portfolio
+﻿# Basic Bistro Analytics - Public Synthetic Portfolio
 
 This portfolio project demonstrates restaurant sales analytics using fictional sales data, PostgreSQL, Python, SQL, and Power BI. The public workflow operates entirely on synthetic datasets and does not require access to original business records.
 
