@@ -151,7 +151,7 @@ The dashboard is divided into three analytical sections, each focusing on differ
 
 ### Food Analysis
 
-![Food Analysis Dashboard](screenshots/food_analysis.png)
+![Food Analysis Dashboard](screenshots/Food_analysis.png)
 
 ### Product and Menu Analysis
 
