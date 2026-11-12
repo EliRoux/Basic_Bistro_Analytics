@@ -141,30 +141,31 @@ Additional SQL analysis scripts are available in `System/sql/`.
 
 ## Power BI Dashboard
 
-The project supports an interactive Power BI dashboard connected to the PostgreSQL synthetic database.
+The Power BI dashboard provides interactive visualisations of restaurant sales performance using synthetic transactional data stored in PostgreSQL.
 
-### Dashboard KPIs
+The dashboard is divided into three analytical sections, each focusing on different aspects of restaurant performance.
 
-The dashboard includes the following performance indicators:
+### Executive Overview
 
-- Total Turnover
-- Total Invoices
-- Average Daily Turnover
-- Average Invoice Value
-- Best Day Turnover
-- Worst Day Turnover
+![Executive Overview Dashboard](screenshots/executive_overview.png)
 
-Date slicers allow users to explore performance across different reporting periods.
+### Food Analysis
 
-### Dashboard Screenshots
+![Food Analysis Dashboard](screenshots/food_analysis.png)
 
-Screenshots of the dashboard will be added to demonstrate the analytical results and visualisations.
+### Product and Menu Analysis
 
-The local `.pbix` dashboard file is excluded from the public repository.
+![Product and Menu Analysis Dashboard](screenshots/product_and_menu_analysis.png)
 
-Users can connect Power BI Desktop to the `basic_bistro_synthetic` PostgreSQL database and import the analytical views.
+### Dashboard Features
 
----
+- Interactive sales performance visualisations
+- Revenue and transaction analysis
+- Product and menu performance reporting
+- Restaurant performance KPIs
+- Date-based filtering and analysis
+
+All dashboard visualisations use synthetic restaurant sales data.
 
 ## Installation and Setup
 
