@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Basic Bistro Analytics
 
@@ -20,6 +21,30 @@ The public version operates entirely on fictional synthetic datasets, allowing t
 - Support interactive business intelligence reporting through Power BI.
 - Demonstrate responsible handling of confidential business information.
 
+=======
+﻿
+# Basic Bistro Analytics
+
+### End-to-End Restaurant Sales Analytics | Python • PostgreSQL • SQL • Power BI
+
+## Project Overview
+
+Basic Bistro Analytics is an end-to-end data analytics portfolio project demonstrating how restaurant transaction data can be transformed into meaningful business intelligence.
+
+The project uses **Python, PostgreSQL, SQL, and Power BI** to develop a reproducible analytics workflow, from synthetic data generation and database loading to SQL analysis and interactive reporting.
+
+The public version operates entirely on fictional synthetic datasets, allowing the technical implementation to be demonstrated without publishing confidential business records.
+
+## Project Objectives
+
+- Build a reproducible data pipeline using Python and PostgreSQL.
+- Organise restaurant transaction data into structured relational database tables.
+- Develop SQL views for business performance analysis.
+- Analyse revenue, product performance, transaction activity, and payment methods.
+- Support interactive business intelligence reporting through Power BI.
+- Demonstrate responsible handling of confidential business information.
+
+>>>>>>> 42186e5 (Update project documentation and add SQL analytical views)
 ---
 
 ## Technology Stack
