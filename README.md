@@ -1,63 +1,45 @@
-﻿Basic Bistro Analytics
 
-End-to-End Restaurant Sales Analytics | Python • PostgreSQL • SQL • Power BI
+# Basic Bistro Analytics
 
-Project Overview
+### End-to-End Restaurant Sales Analytics | Python • PostgreSQL • SQL • Power BI
 
-Basic Bistro Analytics is an end-to-end data analytics portfolio project demonstrating how restaurant transaction data can be transformed into actionable business intelligence.
+## Project Overview
 
-The project uses Python, PostgreSQL, SQL, and Power BI to build a reproducible analytics workflow, from data generation and database loading to business performance reporting.
+Basic Bistro Analytics is an end-to-end data analytics portfolio project demonstrating how restaurant transaction data can be transformed into meaningful business intelligence.
 
-The public version operates exclusively on fictional synthetic datasets, allowing the technical implementation to be demonstrated without publishing confidential business records.
+The project uses **Python, PostgreSQL, SQL, and Power BI** to develop a reproducible analytics workflow, from synthetic data generation and database loading to SQL analysis and interactive reporting.
 
-Project Objectives
+The public version operates entirely on fictional synthetic datasets, allowing the technical implementation to be demonstrated without publishing confidential business records.
 
-Build a reproducible data pipeline using Python and PostgreSQL.
+## Project Objectives
 
-Organise transactional restaurant data into structured database tables.
+- Build a reproducible data pipeline using Python and PostgreSQL.
+- Organise restaurant transaction data into structured relational database tables.
+- Develop SQL views for business performance analysis.
+- Analyse revenue, product performance, transaction activity, and payment methods.
+- Support interactive business intelligence reporting through Power BI.
+- Demonstrate responsible handling of confidential business information.
 
-Develop SQL views for business performance analysis.
+---
 
-Analyse revenue, product performance, transaction activity, and payment methods.
+## Technology Stack
 
-Support interactive business intelligence reporting through Power BI.
+| Technology | Application |
+|------------|-------------|
+| Python | Synthetic data generation, data processing, and pipeline automation |
+| PostgreSQL | Relational database management and analytical data storage |
+| SQL | Data aggregation, analytical views, and business queries |
+| Power BI | Interactive dashboards and KPI reporting |
+| Git & GitHub | Version control and portfolio documentation |
+| CSV | Synthetic transactional data exchange |
 
-Demonstrate responsible handling of confidential business information.
+---
 
-Technology Stack
-
-Technology
-
-Application
-
-Python
-
-Synthetic data generation, data processing, and pipeline automation
-
-PostgreSQL
-
-Relational database and analytical data storage
-
-SQL
-
-Data aggregation, analytical views, and business queries
-
-Power BI
-
-Interactive dashboards and KPI reporting
-
-Git & GitHub
-
-Version control and portfolio documentation
-
-CSV
-
-Synthetic transactional data exchange
-
-Data Pipeline Architecture
+## Data Pipeline Architecture
 
 The public analytics workflow follows this structure:
 
+```text
 Bundled Synthetic Reference CSVs
               |
               v
@@ -78,179 +60,187 @@ Bundled Synthetic Reference CSVs
               |
               v
        Power BI Dashboard
+```
 
-The pipeline is designed to regenerate synthetic transactions and load them into a separate PostgreSQL database.
+The pipeline regenerates synthetic transactions and loads them into a separate PostgreSQL database.
 
 It does not require access to the original restaurant database or private processed exports.
 
-Business Analytics
+---
 
-The project supports analysis of several key restaurant performance indicators.
+## Business Analytics
 
-Sales Performance
+The project supports the analysis of several key restaurant performance indicators.
 
-Total sales revenue
+### Sales Performance
 
-Average daily turnover
+- Total sales revenue
+- Average daily turnover
+- Average invoice value
+- Best and worst performing sales days
+- Total transaction volume
+- Revenue trends over time
 
-Average invoice value
+### Product and Department Performance
 
-Best and worst performing sales days
+- Sales performance by product
+- Revenue contribution by department
+- Product quantities sold
+- Product sales trends
+- Product mix analysis
 
-Total transaction volume
+### Payment Analysis
 
-Revenue trends over time
+- Transaction activity by payment method
+- Payment method distribution
+- Payment-related sales trends
 
-Product and Department Performance
+---
 
-Sales performance by product
+## PostgreSQL Analytical Views
 
-Revenue contribution by department
+The Python data loader creates the following PostgreSQL analytical views:
 
-Product quantities sold
+| SQL View | Purpose |
+|----------|---------|
+| `vw_sales_summary` | Overall sales performance |
+| `vw_daily_sales` | Daily revenue and sales activity |
+| `vw_department_performance` | Department-level performance |
+| `vw_product_performance` | Individual product performance |
+| `vw_payment_methods` | Payment method analysis |
+| `vw_product_sales_analysis` | Detailed product sales analysis |
 
-Product sales trends
+Additional SQL analysis scripts are available in `System/sql/`.
 
-Product mix analysis
+---
 
-Payment Analysis
-
-Transaction activity by payment method
-
-Payment method distribution
-
-Payment-related sales trends
-
-PostgreSQL Analytical Views
-
-The data loader creates the following analytical views:
-
-SQL View
-
-Purpose
-
-vw_sales_summary
-
-Overall sales performance
-
-vw_daily_sales
-
-Daily revenue and sales activity
-
-vw_department_performance
-
-Department-level performance
-
-vw_product_performance
-
-Individual product performance
-
-vw_payment_methods
-
-Payment method analysis
-
-vw_product_sales_analysis
-
-Detailed product sales analysis
-
-Additional SQL analysis scripts are available in System/sql/.
-
-Power BI Dashboard
+## Power BI Dashboard
 
 The project supports an interactive Power BI dashboard connected to the PostgreSQL synthetic database.
 
-Dashboard KPIs include:
+### Dashboard KPIs
 
-Total Turnover
+The dashboard includes the following performance indicators:
 
-Total Invoices
-
-Average Daily Turnover
-
-Average Invoice Value
-
-Best Day Turnover
-
-Worst Day Turnover
+- Total Turnover
+- Total Invoices
+- Average Daily Turnover
+- Average Invoice Value
+- Best Day Turnover
+- Worst Day Turnover
 
 Date slicers allow users to explore performance across different reporting periods.
 
-Dashboard screenshots: To be added.
+### Dashboard Screenshots
 
-The local .pbix dashboard file is excluded from the public repository. Users can connect their own Power BI Desktop installation to the basic_bistro_synthetic database and import the analytical views.
+Screenshots of the dashboard will be added to demonstrate the analytical results and visualisations.
 
-Installation and Setup
+The local `.pbix` dashboard file is excluded from the public repository.
 
-Prerequisites
+Users can connect Power BI Desktop to the `basic_bistro_synthetic` PostgreSQL database and import the analytical views.
 
-Python 3.11+
+---
 
-PostgreSQL
+## Installation and Setup
 
-Power BI Desktop (optional)
+### Prerequisites
 
-Git (optional)
+Before running the project, install:
 
-1. Install Dependencies
+- Python 3.11+
+- PostgreSQL
+- Power BI Desktop (optional)
+- Git (optional)
 
-Create and activate a Python virtual environment, then install the required packages:
+### Step 1: Install Dependencies
 
+Create and activate a Python virtual environment.
+
+Install the required Python packages:
+
+```bash
 pip install -r requirements-public.txt
+```
 
-2. Configure Environment Variables
+### Step 2: Configure Environment Variables
 
-Create a local .env file using .env.example as a template.
+Create a local `.env` file using `.env.example` as a template.
 
 Enter your PostgreSQL connection credentials.
 
-Never commit .env or expose database passwords.
+**Important:** Never commit `.env` or expose database passwords.
 
-3. Create the Database
+### Step 3: Create the PostgreSQL Database
 
 Run the following command:
 
+```bash
 psql -U postgres -c "CREATE DATABASE basic_bistro_synthetic;"
+```
 
 Skip this step if the database already exists.
 
-4. Execute the Public Pipeline
+### Step 4: Execute the Public Pipeline
 
 Run:
 
+```bash
 python System/python/run_public_pipeline.py
+```
 
 Alternatively, on Windows:
 
+```bat
 RUN_PUBLIC_PIPELINE.bat
+```
 
 The pipeline regenerates fictional synthetic transactions before loading them into PostgreSQL.
 
-To load existing synthetic CSVs without regeneration:
+To load existing synthetic CSVs without regenerating them:
 
+```bash
 python System/python/run_public_pipeline.py --skip-generate
+```
 
-5. Connect Power BI
+### Step 5: Connect Power BI
 
-Open Power BI Desktop and connect to the PostgreSQL database:
+Open Power BI Desktop and connect to PostgreSQL.
 
-Database: basic_bistro_synthetic
+Use the database:
+
+```text
+basic_bistro_synthetic
+```
 
 Import the relevant analytical views and build the required visualisations.
 
-Ensure all Power BI queries reference the synthetic database.
+Ensure that all Power BI queries reference the synthetic database.
 
-Verification
+---
 
-Verify that the Python scripts compile:
+## Verification
 
+### Verify Python Scripts
+
+Run:
+
+```bash
 python -m compileall -q System/python
+```
 
-Run the public pipeline using existing synthetic data:
+### Verify the Public Pipeline
 
+Run:
+
+```bash
 python System/python/run_public_pipeline.py --skip-generate
+```
 
-Verify the database connection and loaded data:
+### Verify PostgreSQL Data
 
+Execute the following SQL queries:
+
+```sql
 SELECT current_database();
 
 SELECT COUNT(*)
@@ -258,76 +248,74 @@ FROM public.sales_invoices;
 
 SELECT *
 FROM public.vw_sales_summary;
+```
 
 These database checks require a running PostgreSQL server and valid local credentials.
 
-Data Privacy and Security
+---
+
+## Data Privacy and Security
 
 This repository is intended for public portfolio demonstration.
 
-The published workflow uses synthetic transactional datasets and does not require original restaurant business records.
+The published workflow uses synthetic transactional datasets and does not require access to original restaurant business records.
 
-Security measures include:
+### Security Measures
 
-Separation of public synthetic datasets from private source exports.
+- Separation of public synthetic datasets from private source exports.
+- A dedicated PostgreSQL database for synthetic data.
+- Local database credentials stored in an excluded `.env` file.
+- Exclusion of private exports, local executables, build output, and Power BI project files.
+- Restriction of CSV tracking to `System/data/synthetic/*.csv`.
 
-A dedicated PostgreSQL database for synthetic data.
+### Git Repository Security
 
-Local database credentials stored in an excluded .env file.
+Before publishing, review tracked files and Git history using:
 
-Exclusion of private exports, local executables, build output, and Power BI project files.
-
-Restriction of CSV tracking to System/data/synthetic/*.csv.
-
-Before publication, repository files and Git history should be reviewed using:
-
+```bash
 git ls-files
 git log --all --name-only
 git status
+```
 
-If confidential information or credentials were previously committed, Git history must be cleaned and exposed credentials rotated before publishing.
+A `.gitignore` file does not remove files that have already been committed.
 
-Privacy note: Although the public datasets are fictional, no formal privacy guarantee is made regarding synthetic data derived from private distributions without an independent disclosure review.
+If confidential information or credentials were previously committed, clean the Git history and rotate exposed credentials before publication.
 
-Skills Demonstrated
+**Privacy Note:** Although the public datasets are fictional, no formal privacy guarantee is made regarding synthetic data derived from private distributions without an independent disclosure review.
+
+---
+
+## Skills Demonstrated
 
 This project demonstrates practical experience in:
 
-Python-based data pipeline development
+- Python-based data pipeline development
+- Relational database management
+- SQL analytics and reporting
+- Data processing and validation
+- Business intelligence and KPI development
+- Workflow automation
+- Synthetic data generation
+- Data security awareness
+- Technical documentation and reproducibility
 
-Relational database management
+---
 
-SQL analytics and reporting
+## Future Improvements
 
-Data processing and validation
+Potential extensions to the project include:
 
-Business intelligence and KPI development
+- Automated data quality testing
+- Pipeline execution logging and monitoring
+- Additional SQL-based business analyses
+- Advanced sales trend visualisations
+- Automated reporting workflows
+- Sales forecasting using time-series models
 
-Workflow automation
+---
 
-Synthetic data generation
-
-Data security awareness
-
-Technical documentation and reproducibility
-
-Future Improvements
-
-Potential extensions include:
-
-Automated data quality testing
-
-Pipeline execution logging and monitoring
-
-Additional SQL-based business analyses
-
-Advanced sales trend visualisations
-
-Automated reporting workflows
-
-Sales forecasting using time-series models
-
-Project Purpose
+## Project Purpose
 
 This project was developed as a portfolio demonstration of practical data analytics and data engineering skills.
 
