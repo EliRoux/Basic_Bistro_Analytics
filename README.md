@@ -21,7 +21,6 @@ The public version operates entirely on fictional synthetic datasets, allowing t
 - Support interactive business intelligence reporting through Power BI.
 - Demonstrate responsible handling of confidential business information.
 
-=======
 ﻿
 # Basic Bistro Analytics
 
@@ -44,8 +43,6 @@ The public version operates entirely on fictional synthetic datasets, allowing t
 - Support interactive business intelligence reporting through Power BI.
 - Demonstrate responsible handling of confidential business information.
 
->>>>>>> 42186e5 (Update project documentation and add SQL analytical views)
----
 
 ## Technology Stack
 
@@ -58,7 +55,6 @@ The public version operates entirely on fictional synthetic datasets, allowing t
 | Git & GitHub | Version control and portfolio documentation |
 | CSV | Synthetic transactional data exchange |
 
----
 
 ## Data Pipeline Architecture
 
@@ -91,7 +87,6 @@ The pipeline regenerates synthetic transactions and loads them into a separate P
 
 It does not require access to the original restaurant database or private processed exports.
 
----
 
 ## Business Analytics
 
@@ -120,7 +115,6 @@ The project supports the analysis of several key restaurant performance indicato
 - Payment method distribution
 - Payment-related sales trends
 
----
 
 ## PostgreSQL Analytical Views
 
@@ -137,7 +131,6 @@ The Python data loader creates the following PostgreSQL analytical views:
 
 Additional SQL analysis scripts are available in `System/sql/`.
 
----
 
 ## Power BI Dashboard
 
@@ -242,7 +235,6 @@ Import the relevant analytical views and build the required visualisations.
 
 Ensure that all Power BI queries reference the synthetic database.
 
----
 
 ## Verification
 
@@ -278,7 +270,6 @@ FROM public.vw_sales_summary;
 
 These database checks require a running PostgreSQL server and valid local credentials.
 
----
 
 ## Data Privacy and Security
 
@@ -310,7 +301,6 @@ If confidential information or credentials were previously committed, clean the 
 
 **Privacy Note:** Although the public datasets are fictional, no formal privacy guarantee is made regarding synthetic data derived from private distributions without an independent disclosure review.
 
----
 
 ## Skills Demonstrated
 
@@ -326,7 +316,6 @@ This project demonstrates practical experience in:
 - Data security awareness
 - Technical documentation and reproducibility
 
----
 
 ## Future Improvements
 
@@ -339,7 +328,6 @@ Potential extensions to the project include:
 - Automated reporting workflows
 - Sales forecasting using time-series models
 
----
 
 ## Project Purpose
 
